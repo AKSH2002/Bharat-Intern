@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image';
+import {Link} from "react-router-dom"
 // import logo from '/assets/logo.png'
 
 function NavScrollExample() {
@@ -13,7 +14,7 @@ function NavScrollExample() {
       <Container fluid>
         {/* <Navbar.Brand href="#" style={{ color: 'white' }}>Navbar scroll</Navbar.Brand> */}
         <Navbar.Brand href="#">
-        <Image src="/assets/logos.png" alt="Logo" style={{ width: '100px' }} />
+        <Image src="/assets/logos.png" alt="Logo" style={{ width: '150px',marginRight:'25px' }} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -34,9 +35,10 @@ function NavScrollExample() {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown> */}
-            <Nav.Link href="#" disabled style={{ color: 'white' }}> 🧑‍🎓About Us</Nav.Link>
+            <Nav.Link href="#" style={{ color: 'white' }}> 🧑‍🎓About Us</Nav.Link>
+          
           </Nav>
-          <Nav.Link href="#" disabled style={{ backgroundColor:'blue', border: '2px solid gray', borderRadius: '25px' ,color: 'white',marginRight:'20px',paddingLeft: '15px', paddingRight: '15px', paddingBottom: '5px', paddingTop:'5px',marginBottom:'10px', marginTop:'10px' }}> ✍️ Write</Nav.Link>
+          <Nav.Link href="/Create"  style={{ backgroundColor:'blue', border: '2px solid gray', borderRadius: '25px' ,color: 'white',marginRight:'20px',paddingLeft: '15px', paddingRight: '15px', paddingBottom: '5px', paddingTop:'5px',marginBottom:'10px', marginTop:'10px' }}> ✍️ Write</Nav.Link>
           <Form className="d-flex">
             <Form.Control
               type="search"

@@ -1,0 +1,35 @@
+/* src/components/navbar/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 4px;
+    /* padding-bottom: 1px; */
+    background-color: #1a237e;
+    color: #fff;
+  }
+  
+  .logo img {
+    width: auto;
+    height: 60px;
+    margin-right: 5px;
+  }
+  
+  .logo h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
