@@ -56,7 +56,7 @@ const HomePage = () => {
     
     <div className="homepage-container">
       <div className="homepage-header">
-        <img src="logo.png" alt="Google Meet Logo" />
+        <img src="logo.png" alt="my Logo" />
         <h1>Welcome to VoxMeeting</h1>
       </div>
       <div className="homepage-content">

@@ -20,10 +20,10 @@ const AboutUs = () => {
         
         <div>
              <h1>
-                 <a href="https://www.linkedin.com/in/aksh-darji-127316210/">LinkedIn</a>
+                 <a href="https://www.linkedin.com/in/aksh-darji-127316210/">🌐 LinkedIn</a>
                  <br />
                  <br />
-                 <a href="https://github.com/AKSH2002">GitHub</a>
+                 <a href="https://github.com/AKSH2002">💻 GitHub</a>
              </h1>
         </div>
 

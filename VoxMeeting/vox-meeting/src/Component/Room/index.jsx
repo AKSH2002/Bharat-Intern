@@ -6,8 +6,8 @@ const RoomPage = () => {
     const {roomId} = useParams();
 
     const myMeeting = async (element) => {
-        const appID = 946219318;
-        const serverSecret = "8e0b853d79deae0bcbfe949b73ca46a4";
+        const appID = 2115094084;
+        const serverSecret = "103c81065bd402a93491d0bd19e87e7b";
         const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomId, Date.now().toString(), "Aksh Darji");
 
         const zc = ZegoUIKitPrebuilt.create(kitToken);
@@ -15,8 +15,8 @@ const RoomPage = () => {
             container: element,
             sharedLinks: [
                 {
-                    name: 'Copy Link',
-                    url: `http://localhost:3000/room/${roomId}`,
+                    name: 'Copy Room Code',
+                    url: `${roomId}`,
                 },
             ],
             scenario: {
