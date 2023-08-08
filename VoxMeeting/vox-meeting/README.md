@@ -20,7 +20,11 @@ Throughout my Full Stack Development Internship, VoxMeeting has been a significa
 
 ## 📷 Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/AKSH2002)
+![App Screenshot](https://raw.githubusercontent.com/AKSH2002/Bharat-Intern/master/VoxMeeting/vox-meeting/Glimpse/SS1.png)
+![App Screenshot](https://raw.githubusercontent.com/AKSH2002/Bharat-Intern/master/VoxMeeting/vox-meeting/Glimpse/SS3.png)
+![App Screenshot](https://raw.githubusercontent.com/AKSH2002/Bharat-Intern/master/VoxMeeting/vox-meeting/Glimpse/SS4.png)
+![App Screenshot](https://raw.githubusercontent.com/AKSH2002/Bharat-Intern/master/VoxMeeting/vox-meeting/Glimpse/SS5.png)
+![App Screenshot](https://raw.githubusercontent.com/AKSH2002/Bharat-Intern/master/VoxMeeting/vox-meeting/Glimpse/SS7.png)
 
 
 ## 🛠 Tools and languges used
