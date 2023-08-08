@@ -30,18 +30,18 @@ const HomePage = () => {
   };
 
   const validateRoomCode = () => {
-    const regex = /^[A-Za-z]{3}-[A-Za-z]{4}-[A-Za-z]{3}$/;
+    const regex = /^[a-z]{3}-[a-z]{4}-[a-z]{3}$/;
     if (value.trim() === "") {
       setErrorMessage("");
     } else if (!regex.test(value)) {
-      setErrorMessage("Invalid room code. Please enter the correct format (e.g., ABC-DEFG-HIJ).");
+      setErrorMessage("Invalid room code. Please enter the correct format (e.g., abc-defg-hij).");
     } else {
       setErrorMessage("");
     }
   };
 
   const generateRandomString = (length) => {
-    const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    const characters = "abcdefghijklmnopqrstuvwxyz";
     let result = "";
     const charactersLength = characters.length;
     for (let i = 0; i < length; i++) {
