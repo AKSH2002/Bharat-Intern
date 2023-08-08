@@ -1,4 +1,3 @@
-
 # Hi, I'm Aksh! 👋
 
 # 🌐🎥 VoxMeeting - Video Conferencing Web Application 🚀💻
@@ -40,6 +39,41 @@ Please adhere to this project's `code of conduct`.
 ## 💻 Run Locally
 Make sure that node is install in system 
 
+1. **Clone the Repository**: Clone the repository to your local machine using the following command:
+   
+     ```bash
+      git clone https://github.com/AKSH2002/Bharat-Intern.git
+     ```
+
+
+2. **Navigate to Directory**: Change into the project directory:
+   
+     ```bash
+      cd Bharat-Intern/VoxMeeting/vox-meeting/
+     ```
+
+3. **Install Dependencies**: Make sure you have node installed. Install the required dependencies and also listed in the `requirements.txt` file using npm:
+   
+     ```bash
+      npm install
+     ```
+     If all the required dependencies did't installed then use following command.
+     ```bash
+      npm install -r requirements.txt
+     ```
+4. **Note**: Use your own `appId` and `serverSecret` inside the `index.jsx` in Room Component.
+
+5. **Start the Development Server**: Once the dependencies are installed, start the development server with the following command::
+   
+     ```bash
+      npm start
+     ```
+
+6. **Access VoxMeeting in Your Browser**: Open your web browser and go to `http://localhost:3000`.
+You should now see the VoxMeeting homepage, and you can explore its features.
+
+7. **Enjoy VoxMeeting**: VoxMeeting is now up and running locally on your machine. You can navigate through the various features, test audio-video interactions, and explore the text chat functionality.
+Feel free to create, join, and record meetings to experience the full capabilities of VoxMeeting.
 
 
 ## 🎯 Aim and Objectives
